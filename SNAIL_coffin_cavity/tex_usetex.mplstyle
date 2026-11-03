@@ -1,0 +1,22 @@
+axes.labelsize: medium
+axes.labelweight: medium
+axes.titlesize: medium
+axes.titleweight: medium
+figure.figsize: 6.5000002767400025, 4.017221097909045
+figure.labelsize: medium
+figure.labelweight: medium
+figure.titlesize: medium
+figure.titleweight: medium
+font.family: serif
+font.serif: Computer Modern Roman
+font.size: 10
+font.weight: medium
+legend.fontsize: small
+lines.linewidth: 1.0
+lines.markersize: 4.0
+savefig.bbox: tight
+savefig.format: pdf
+text.latex.preamble: \usepackage{amsmath, siunitx}
+text.usetex: True
+xtick.labelsize: small
+ytick.labelsize: small

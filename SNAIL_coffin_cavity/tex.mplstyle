@@ -1,0 +1,28 @@
+# No-LaTeX version of tex_usetex.mplstyle: same sizes and look, rendered with
+# matplotlib's built-in mathtext (no LaTeX install needed). Write units as
+# $\mathrm{GHz}$ rather than \si{\giga\hertz}. To go back to real LaTeX once
+# it's installed, use tex_usetex.mplstyle instead.
+axes.labelsize: medium
+axes.labelweight: medium
+axes.titlesize: medium
+axes.titleweight: medium
+axes.formatter.use_mathtext: True
+axes.unicode_minus: False
+figure.figsize: 6.5000002767400025, 4.017221097909045
+figure.labelsize: medium
+figure.labelweight: medium
+figure.titlesize: medium
+figure.titleweight: medium
+font.family: serif
+font.serif: cmr10, Computer Modern Roman, DejaVu Serif
+font.size: 10
+font.weight: medium
+legend.fontsize: small
+lines.linewidth: 1.0
+lines.markersize: 4.0
+mathtext.fontset: cm
+savefig.bbox: tight
+savefig.format: pdf
+text.usetex: False
+xtick.labelsize: small
+ytick.labelsize: small

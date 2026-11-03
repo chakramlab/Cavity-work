@@ -1,0 +1,47 @@
+# ---------------------------------------------------------------------------
+# Ansys HFSS / AEDT
+# Keep the .aedt project files (the model itself); ignore everything HFSS
+# regenerates when it solves, plus locks, autosaves and temp files.
+# ---------------------------------------------------------------------------
+*.aedtresults/
+*.aedt.lock
+*.aedt_*.lock
+*.aedt.auto
+*.aedtz
+*.pyaedt/
+*.semaphore
+*.asol
+*.asol_priv
+*.g3derr
+debug_log*.scr
+hfss_files/**/*.TMP
+hfss_files/**/*.tmp
+
+# pyaedt / AEDT run logs
+pyaedt_*.log
+batch.log
+*_run.log
+
+# ---------------------------------------------------------------------------
+# Data exported from HFSS solves
+# (regenerate by rerunning the notebook; the driven-modal Y matrices are
+#  100+ MB, over GitHub's file limit)
+# ---------------------------------------------------------------------------
+**/data/driven_modal/*.npz
+**/data/driven_modal/*.csv
+
+# ---------------------------------------------------------------------------
+# Inventor
+# ---------------------------------------------------------------------------
+OldVersions/
+_previous/
+*.lck
+~$*
+
+# ---------------------------------------------------------------------------
+# Python / Jupyter / editors
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/

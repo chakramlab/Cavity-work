@@ -1,0 +1,23 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python.defaultInterpreterPath": "C:\\Users\\epm114\\.AnE\\Scripts\\python.exe",
+        "python.terminal.activateEnvironment": true,
+        "python.terminal.executeInFileDir": true,
+        "jupyter.interactiveWindow.creationMode": "perFile",
+        "jupyter.notebookFileRoot": "${fileDirname}",
+        "files.exclude": {
+            "**/*.aedtresults": true,
+            "**/*.aedt.lock": true,
+            "**/*.aedt.auto": true,
+            "**/__pycache__": true
+        },
+        "files.watcherExclude": {
+            "**/*.aedtresults/**": true
+        }
+    }
+}
